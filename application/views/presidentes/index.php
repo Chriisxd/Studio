@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<br>
-		<h1 class="text-center">Mapa Candidatos Presidenciales</h1>
+		<h1 class="text-center">Mapa Candidatos Presidentes</h1>
 		<div class="row">
 			<div class="col-md-12">
 				<div id="mapaPresidentes" style="height:500px; width:100%; border:2px solid black;"></div>
@@ -31,7 +31,7 @@
 					 position:coordenadaTemporal,
 					 title:"<?php echo $presidenteTemporal->nombre_pre; ?>",
 					 map:mapaPresidentes
-					 
+
 				});
 				<?php endforeach; ?>
 				<?php endif; ?>
